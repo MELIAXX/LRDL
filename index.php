@@ -18,8 +18,6 @@
     <?php
     include("nav.php");
     include("panier.php");
-
-    var_dump($_SESSION["panier"]);
     if (isset($_GET['success'])) {
         echo "<script> afficherPanier(); </script>";
     }
