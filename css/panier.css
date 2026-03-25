@@ -1,0 +1,201 @@
+.panier-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.panier {
+    top: 0;
+    width: 40%;
+    height: 95%;
+    position :fixed;
+    display: block;
+    background-color: #ffffff;
+    right: 0;
+    z-index: 2;
+
+}
+
+.list{
+    overflow-y: scroll;
+    height: 80%;
+}
+
+.panier h1 {
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.panier-cont {
+    display: none;
+}
+.under-pan {
+    position: block;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    width: 80%;
+    height: 1%;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.215);
+
+}
+
+#close-panier {
+    position: absolute;
+    font: bold 20px Arial, sans-serif;
+    top: 0px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.items {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+    padding: 5px;
+    border: 1.5px solid #373737;
+    border-radius: 15px;
+    object-fit: contain;
+}
+
+.remove-item {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.item-image {
+    width: 130px;
+    height: 150px;
+
+
+}
+
+.item-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+
+
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    width: 100%;
+    
+}
+
+.infos h2 {
+    padding: 0;
+    font-size: 18px;
+    margin-top: 3%;
+}
+
+
+.infos h3 {
+    padding: 0;
+    font-size: 15px;
+    margin-top: -3.5%;
+    color: #00000077;
+    
+}
+
+.q-p {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: 5%;
+}
+
+.item-quantity, .item-price {
+    margin: 0;
+}
+
+.item-quantity {
+    font-weight: normal;
+    font-size: smaller;
+
+
+}
+
+.item-price {
+    font-weight: bold;
+    text-align: right;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.item-price-desc {
+    position: relative;
+    font-weight: bold;
+    text-align: right;
+    font-size: 7.5px;
+    color: #555;
+    margin-top: -5px;
+
+}
+.quantity-plus, .quantity-minus {
+    cursor: pointer;
+}
+
+.quantity-mod {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: -20%;
+}
+
+.end-Panier {
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 10%;
+    align-items: center;
+    border-top: #373737 solid 1.5px;
+}
+
+.end-Panier:first-child {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.end-Panier > * {
+    margin: 5px 10px 5px 10px;
+}
+
+
+.check-out {
+    padding: 10px 15px;
+    border: none;
+    background-color: #00d4ff;
+    color: #0a0e27;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.check-out:hover {
+    background-color: #00f0ff;
+    box-shadow: 0 0 10px #00d4ff;
+}
+
+

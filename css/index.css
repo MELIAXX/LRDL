@@ -1,0 +1,156 @@
+
+
+
+.intro-cont {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 500px;
+    background-color: #f5f5f5;
+    background-color: #000000;
+}
+
+.img_h{
+    display: flex;
+    flex-direction: row;
+    background-color: #000000;
+    width: 100%;
+    height: 80%;
+    border-bottom: 2.5px solid #00d4ff;
+    
+    
+}
+
+.img {
+    width: 41%;
+    height: auto;
+    object-fit: cover;
+    margin-left: 10%;
+    
+
+}
+
+.img_h div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -5%;
+}
+
+
+
+.img_h div h1 {
+    color: #f5f5f5;
+    font-size: 30px;
+    font-weight: 600;
+    width: 79%;
+    margin-bottom: 15px;
+    margin-top: -50px;
+}
+
+.img_h div a {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+    color: #000000;
+    background-color: #00d4ff;
+    padding: 5px 5px 5px 5px;
+    margin-right: 21%;
+    border-radius: 25px;
+    width: 30%;
+    font-family: "Poppins", sans-serif;
+    scale: 70%;
+    align-self: center;
+
+
+}
+
+.produits {
+    display: flex;
+    flex-direction: row;
+    border: rgb(219, 219, 219) solid 5px;
+    border-radius: 15px;
+    padding: 10px;
+    width: 90%;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.produit {
+    width: 27%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #efefef;
+    border-radius: 15px;
+} 
+
+.produit img {
+    min-width: 33%;
+    max-width: 33%;
+    min-height: 175px;
+    max-height: 190px;
+    height: 300px;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 12px;
+    margin-left: 5px;
+
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 5px 5px 10px;
+    width: 65%;
+
+
+}
+
+.info p:first-of-type {
+    font-size: 15px;
+    color: #00000077;
+    margin-top: -4px;
+}
+
+.info :first-child {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 94%;
+}
+.info > * {
+    margin: 0px;
+    color: #000000;
+
+}
+
+.prix {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.add-to-cart {
+    background-color: #00d4ff;
+    color: #0a0e27;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    font-size: 15px;
+}
+
+.preview {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 5%;
+    font-weight: 600;
+}
